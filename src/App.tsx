@@ -5,6 +5,7 @@ import { Track } from "./components/elements/track-item/Track";
 import { useQueryState } from "nuqs";
 import { useMemo } from "react";
 import { playerStore } from "./store/player.store";
+import banner from "./assets/banner.jpg";
 import "./App.css";
 
 function App() {
@@ -21,7 +22,7 @@ function App() {
       <SearchField value={searchTerm || ""} onChange={e => setSearchTerm(e.target.value)} />
 
       <div className="relative">
-        <img className="rounded-xl" src="/banner.jpg" alt="Баннер" />
+        <img className="rounded-xl" src={banner} alt="Баннер" />
 
         <div className="flex items-center justify-between absolute bottom-layout left-0 px-layout w-full">
           <div>

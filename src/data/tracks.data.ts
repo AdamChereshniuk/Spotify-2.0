@@ -1,109 +1,141 @@
 import type { ITrack } from "../types/track.type";
 import { ARTISTS } from "./artist.data";
 
+import audio_90s_Bitch from "../assets/audio/90s_Bitch.mp3";
+import audio_Emergency from "../assets/audio/Emergency.jpg";
+import audio_Free_Yourself from "../assets/audio/Free_Yourself.jpg";
+import audio_Insomnia from "../assets/audio/Insomnia.jpg";
+import audio_Konje from "../assets/audio/Konje.jpg";
+import audio_Oldskool_Sound from "../assets/audio/Oldskool_Sound.jpg";
+import audio_Open_Sesame__Abracadabra___feat_Leila_K_ from "../assets/audio/Open_Sesame__Abracadabra___feat._Leila_K_.jpg";
+import audio_Pjanoo from "../assets/audio/Pjanoo.jpg";
+import audio_Sex_Drugs_Energie__Stan_Christ___Zeltak_Remix_ from "../assets/audio/Sex_Drugs_Energie__Stan_Christ___Zeltak_Remix_.jpg";
+import audio_Sexy_Chick from "../assets/audio/Sexy_Chick.jpg";
+import audio_SUBMARINE from "../assets/audio/SUBMARINE.jpg";
+import audio_Take_Me_Higher from "../assets/audio/Take_Me_Higher.jpg";
+import audio_The_Violator from "../assets/audio/The_Violator.jpg";
+import audio_We_Are_The_People_southstar_Remix__1_ from "../assets/audio/We_Are_The_People_-_southstar_Remix__1_.jpg";
+import audio_When_I_Push_Edit from "../assets/audio/When_I_Push_-_Edit.jpg";
+
+import cover_90s_Bitch from "../assets/cover/90s_Bitch.jpg";
+import cover_Emergency from "../assets/cover/Emergency.jpg";
+import cover_Free_Yourself from "../assets/cover/Free_Yourself.jpg";
+import cover_Insomnia from "../assets/cover/Insomnia.jpg";
+import cover_Konje from "../assets/cover/Konje.jpg";
+import cover_Oldskool_Sound from "../assets/cover/Oldskool_Sound.jpg";
+import cover_Open_Sesame__Abracadabra___feat_Leila_K_ from "../assets/cover/Open_Sesame__Abracadabra___feat._Leila_K_.jpg";
+import cover_Pjanoo from "../assets/cover/Pjanoo.jpg";
+import cover_Sex_Drugs_Energie__Stan_Christ___Zeltak_Remix_ from "../assets/cover/Sex_Drugs_Energie__Stan_Christ___Zeltak_Remix_.jpg";
+import cover_Sexy_Chick from "../assets/cover/Sexy_Chick.jpg";
+import cover_SUBMARINE from "../assets/cover/SUBMARINE.jpg";
+import cover_Take_Me_Higher from "../assets/cover/Take_Me_Higher.jpg";
+import cover_The_Violator from "../assets/cover/The_Violator.jpg";
+import cover_We_Are_The_People_southstar_Remix__1_ from "../assets/cover/We_Are_The_People_-_southstar_Remix__1_.jpg";
+import cover_When_I_Push_Edit from "../assets/cover/When_I_Push_-_Edit.jpg";
+
 export const TRACKS: ITrack[] = [
 	{
 		name: "90s Bitch",
-		file: "/audio/90s_Bitch.mp3",
-		cover: "/cover/90s_Bitch.jpg",
+		file: audio_90s_Bitch,
+		cover: cover_90s_Bitch,
 		artist: ARTISTS[0],
 		duration: 196
 	},
 	{
 		name: "Emergency",
-		file: "/audio/Emergency.mp3",
-		cover: "/cover/Emergency.jpg",
+		file: audio_Emergency,
+		cover: cover_Emergency,
 		artist: ARTISTS[1],
 		duration: 227
 	},
 	{
 		name: "Free Yourself",
-		file: "/audio/Free_Yourself.mp3",
-		cover: "/cover/Free_Yourself.jpg",
+		file: audio_Free_Yourself,
+		cover: cover_Free_Yourself,
 		artist: ARTISTS[2],
 		duration: 339
 	},
 	{
 		name: "Insomnia",
-		file: "/audio/Insomnia.mp3",
-		cover: "/cover/Insomnia.jpg",
+		file: audio_Insomnia,
+		cover: cover_Insomnia,
 		artist: ARTISTS[3],
 		duration: 180
 	},
 	{
 		name: "Konje",
-		file: "/audio/Konje.mp3",
-		cover: "/cover/Konje.jpg",
+		file: audio_Konje,
+		cover: cover_Konje,
 		artist: ARTISTS[4],
 		duration: 181
 	},
 	{
 		name: "Oldskool Sound",
-		file: "/audio/Oldskool_Sound.mp3",
-		cover: "/cover/Oldskool_Sound.jpg",
+		file: audio_Oldskool_Sound,
+		cover: cover_Oldskool_Sound,
 		artist: ARTISTS[5],
 		duration: 216
 	},
 	{
 		name: "Open Sesame (Abracadabra) [feat. Leila K]",
-		file: "/audio/Open_Sesame__Abracadabra___feat._Leila_K_.mp3",
-		cover: "/cover/Open_Sesame__Abracadabra___feat._Leila_K_.jpg",
+		file: audio_Open_Sesame__Abracadabra___feat_Leila_K_,
+		cover: cover_Open_Sesame__Abracadabra___feat_Leila_K_,
 		artist: ARTISTS[0],
 		duration: 220
 	},
 	{
 		name: "Pianoo",
-		file: "/audio/Pjanoo.mp3",
-		cover: "/cover/Pjanoo.jpg",
+		file: audio_Pjanoo,
+		cover: cover_Pjanoo,
 		artist: ARTISTS[6],
 		duration: 180
 	},
 	{
 		name: "Sex Drugs Energie (Stan Christ & Zeltak Remix)",
-		file: "/audio/Sex_Drugs_Energie__Stan_Christ___Zeltak_Remix_.mp3",
-		cover: "/cover/Sex_Drugs_Energie__Stan_Christ___Zeltak_Remix_.jpg",
+		file: audio_Sex_Drugs_Energie__Stan_Christ___Zeltak_Remix_,
+		cover: cover_Sex_Drugs_Energie__Stan_Christ___Zeltak_Remix_,
 		artist: ARTISTS[7],
 		duration: 229
 	},
 	{
 		name: "Sexy Chick",
-		file: "/audio/Sexy_Chick.mp3",
-		cover: "/cover/Sexy_Chick.jpg",
+		file: audio_Sexy_Chick,
+		cover: cover_Sexy_Chick,
 		artist: ARTISTS[8],
 		duration: 168
 	},
 	{
 		name: "SUBMARINE",
-		file: "/audio/SUBMARINE.mp3",
-		cover: "/cover/SUBMARINE.jpg",
+		file: audio_SUBMARINE,
+		cover: cover_SUBMARINE,
 		artist: ARTISTS[9],
 		duration: 317
 	},
 	{
 		name: "Take Me Higher",
-		file: "/audio/Take_Me_Higher.mp3",
-		cover: "/cover/Take_Me_Higher.jpg",
+		file: audio_Take_Me_Higher,
+		cover: cover_Take_Me_Higher,
 		artist: ARTISTS[10],
 		duration: 300
 	},
 	{
 		name: "The Violator",
-		file: "/audio/The_Violator.mp3",
-		cover: "/cover/The_Violator.jpg",
+		file: audio_The_Violator,
+		cover: cover_The_Violator,
 		artist: ARTISTS[11],
 		duration: 241
 	},
 	{
 		name: "We Are The People - southstar Remix (1)",
-		file: "/audio/We_Are_The_People_-_southstar_Remix__1_.mp3",
-		cover: "/cover/We_Are_The_People_-_southstar_Remix__1_.jpg",
+		file: audio_We_Are_The_People_southstar_Remix__1_,
+		cover: cover_We_Are_The_People_southstar_Remix__1_,
 		artist: ARTISTS[12],
 		duration: 236
 	},
 	{
 		name: "When I Push - Edit",
-		file: "/audio/When_I_Push_-_Edit.mp3",
-		cover: "/cover/When_I_Push_-_Edit.jpg",
+		file: audio_When_I_Push_Edit,
+		cover: cover_When_I_Push_Edit,
 		artist: ARTISTS[13],
 		duration: 214
 	},
