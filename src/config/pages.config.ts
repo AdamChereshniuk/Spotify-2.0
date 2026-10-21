@@ -1,22 +1,26 @@
 export class PagesConfig {
     static HOME = "/";
-    static DISCOVER = "/discover";
-    static RADIO = "/radio";
+    static DISCOVER = "/"; // discover
+    static RADIO = "/"; // radio
 
-    static MADE_FOR_YOU = "/made-for-you";
-    static RECENTLY_PLAYED = "/recently-played";
-    static LIKED_SONGS = "/liked-songs";
+    static MADE_FOR_YOU = "/"; // made-for-you
+    static RECENTLY_PLAYED = "/"; // recently-played
+    static LIKED_SONGS = "/"; // liked-songs
 
     static PLAYLIST(id: string) {
-        return `/playlist/${id}`;
+        console.log(id);
+        return `/`;
     };
     static ALBUMS(id?: string) {
-        return `/albums/${id || ""}`;
+        console.log(id);
+        return `/`;
     };
     static ARTISTS(id?: string) {
-        return `/artists/${id || ""}`;
+        console.log(id);
+        return `/`;
     };
     static PODCASTS(id?: string) {
-        return `/podcasts/${id || ""}`;
+        console.log(id);
+        return `/`;
     };
 };
